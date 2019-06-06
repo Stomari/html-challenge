@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 15px;
+    font-size: 110%
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-left {
+    float: left;
+    padding-left: 5px;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.top-stuff {
+    background-image: url(city-scape.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#npm-logo {
+    box-sizing: border-box;
+    float: left;
+    width: 5%;
+    margin: 25px;
+}
+
+.packagesfd {
+    width: 75%;
+    height: 8%;
+    float: left;
+    margin-top: 20px;
+    background-color: rgb(31, 82, 111);
+}
+
+.top-rightbt {
+    float: right;
+    display: inline;
+    margin-right: 1%;
+    margin-top: 2%;
+    font-size: 130%;
+    color: aliceblue;
+}
+
+.top-rightbt a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#bear-logo {
+    float: right;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.first-text {
+    clear: both;
+    color: aliceblue;
+}
+
+.first-text h2 {
+    padding-top: 50px;
+    margin-left: 200px;
+    font-size: 60px;
+}
+
+.first-text p {
+    margin-left: 200px;
+    font-size: 30px;
+    width: 780px;
+    margin-bottom: 50px;
+}
+
+.first-text .sign-up {
+    padding: 10px;
+    background-color: rgb(240, 146, 51);
+    border: transparent;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 100px;
+    width: 150px;
+    text-decoration: none;
+}
+
+.first-section {
+    background-color: rgb(39, 53, 71);
+    height: 600px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#collaboration {
+    box-sizing: border-box;
+    width: 35%;
+    float: left;
+    margin-top: 125px;
+    margin-left: 125px;
+}
+
+.first-section h2 {
+    margin: 0%;
+    font-size: 50px;
+    width: 780px;
+}
+
+.first-section div {
+    padding-top: 110px;
+    padding-left: 800px;
+    width: 850px;
+    font-size: 30px;
+}
+
+.first-section ul {
+    line-height: 1.5;
+}
+
+.first-section .sign-up {
+    padding: 10px;
+    background-color: rgb(203, 56, 55)
+    ;
+    border: transparent;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 100px;
+    width: 150px;
+    text-decoration: none;
+}
+
+.first-section .learn-more {
+    text-decoration: none;
+    color: inherit;
+}
+
+.second-section {
+    background-image: url(forklift.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px; 
+}
+
+.second-section h2 {
+    margin: 0%;
+    font-size: 50px;
+    width: 780px;
+}
+
+.second-section div {
+    font-size: 30px;
+    width: 650px;
+    padding-top: 110px;
+    padding-left: 200px;
+}
+
+.second-section .install {
+    padding: 10px;
+    background-color: rgb(49, 68, 88);
+    border: transparent;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 100px;
+    width: 150px;
+    text-decoration: none;
+}
+
+footer {
+    color: rgb(94, 94, 94);
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer-text h2 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.find {
+    width: 350px;
+}
+
+.discover {
+    width: 350px;
+}
+
+.build {
+    width: 350px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #C12127;
+}
